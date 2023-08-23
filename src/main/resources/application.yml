@@ -1,0 +1,9 @@
+server:
+  port: 8001
+
+logging:
+  level:
+    root: info
+    com.ksyun: debug
+  pattern:
+    console: '%d [%t] [reqId:%X{requestId}] %-5level %logger{36} - %msg%n'
